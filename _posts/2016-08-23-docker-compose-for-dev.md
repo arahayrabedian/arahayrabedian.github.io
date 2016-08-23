@@ -68,6 +68,7 @@ services:
 ```
 
 env_vars/webapp_env_vars.env:
+
 ```
 DB_HOST=postgres
 DB_PORT=5432
@@ -133,6 +134,7 @@ services:
 ```
 
 env_vars/webapp_one_env_vars.env:
+
 ```
 DB_HOST=postgresone
 DB_PORT=5432
@@ -142,7 +144,9 @@ MEMCACHED_HOST=memcachedone
 MEMCACHED_PORT=11211
 SOME_VARIABLE_MY_WEBAPP_READS=a_value_i_use_to_configure_it
 ```
+
 env_vars/webapp_two_env_vars.env:
+
 ```
 DB_HOST=postgrestwo
 DB_PORT=5432
@@ -154,6 +158,7 @@ SOME_VARIABLE_MY_WEBAPP_READS=a_value_i_use_to_configure_it
 ```
 
 conf/haproxy/haproxy.cfg:
+
 ```
 # This is a DEVELOPMENT haproxy configuration to be run inside a docker
 # container, please refrain from thinking about using it in production.
@@ -213,10 +218,7 @@ HAProxy supports SSL termination since 1.5.X, [see here](https://www.digitalocea
 
 1. start the haproxy container listening on port 443 (if you've gotten this far, you should know how to allow haproxy to listen on port 443)
 2. push our self-signed certificate in to our haproxy container (as already stated, we've already mounted a volume, so we only need to add our .crt file in to that folder, next to the haproxy config)
-3. tell our haproxy.cfg to start using this self signed certificate for termination, add:
-```
-bind 0.0.0.0:443 ssl crt /usr/local/etc/haproxy/self.pem
-```
+3. tell our haproxy.cfg to start using this self signed certificate for termination, add: `bind 0.0.0.0:443 ssl crt /usr/local/etc/haproxy/self.pem`
 to your `frontend http` block.
 
 and there you have it. two webapps served via https with unified ports under a docker stack. Note that your webapps themselves will still receive regular HTTP traffic. Hence why it's called SSL termination
