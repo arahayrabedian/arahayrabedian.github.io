@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Using docker-compose for web development
+title: Using docker-compose for webapp development
+excerpt: At dubizzle we lean towards a service-oriented architecture whenever it makes sense, this means that when you're developing, you may need to run several server stacks. Some of us use docker-compose, a super-convenient way of coordinating containers and easily spinning up and taking down services on your development machine (and elsewhere). This guide will walk you through some of the thicker parts of setting up such an environment. In this tutorial we assume some basic familiarity with docker.
 ---
-## Note
-
-The original version of this blog post appeared on my former employer's [technical blog](http://blog.dubizzle.com/boilerroom/2016/08/18/setting-development-environment-docker-compose/)
+### Note: The original version of this blog post appeared on my former employer's [technical blog](http://blog.dubizzle.com/boilerroom/2016/08/18/setting-development-environment-docker-compose/)
 
 ## Intro
 
