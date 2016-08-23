@@ -79,7 +79,7 @@ SOME_VARIABLE_MY_WEBAPP_READS=a_value_i_use_to_configure_it
 ```
 
 You should notice two new things here:
-1) `webapp` declares an env_file from which to pick up env vars. This is important because we configure a lot of our applications with environment variables, so that the same docker image can run in different environments, taking inspiration from [12-factor apps](http://12factor.net/). The variables in this env file are loaded up into the container when it runs. It also means, in line with best practices, we can avoid committing checking in secrets and passwords in to our code and source control.
+1) `webapp` declares an env_file from which to pick up env vars. This is important because we configure a lot of our applications with environment variables, so that the same docker image can run in different environments, taking inspiration from [12-factor apps](http://12factor.net/). The variables in this env file are loaded up into the container when it runs. It also means, in line with best practices, we can avoid checking in secrets and passwords in to our code and source control.
 
 2) `webapp` also declares a volume. In this case we want to get some development done, so we mount our source code in the place the webapp container expects to serve it, this will vary depending on your setup so I only provide nonsense paths. But what it means is that making a change on your own machine will reflect inside the container, how cool is that!? It's super cool. Because we don't want to build a new image every time we want to test a code change.
 
