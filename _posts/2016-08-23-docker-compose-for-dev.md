@@ -77,6 +77,7 @@ DB_PASSWORD=OMG_PLS_K33P_4_S3CRET
 MEMCACHED_HOST=memcached
 MEMCACHED_PORT=11211
 SOME_VARIABLE_MY_WEBAPP_READS=a_value_i_use_to_configure_it
+
 ```
 
 You should notice two new things here:
@@ -268,5 +269,5 @@ Some software (such as ElasticSearch) have the ability to auto-cluster by defaul
 I personally have a template from which I generate docker-compose.yml files. This makes it easy to switch unnecessary services on and off, combine that with an haproxy config template and you've struck gold. A development machine that can run parts of the stack you're currently working on and turn off the rest. Consider a templating language like jinja2.
 
 
-##Footnotes
+## Footnotes
 [1] - Sometimes a webapp requires very specific version of libraries that if you want to install on a mac vs on linux is different. The single biggest advantage I've seen to using docker for development is not dealing with this. I just pull the container and go.
