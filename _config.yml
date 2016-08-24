@@ -17,9 +17,9 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  flickr: https://www.flickr.com/photos/28588093@N00/albums/
+  flickr: photos/28588093@N00/albums/
   github: arahayrabedian
-  linkedin: https://www.linkedin.com/in/ara-hayrabedian-b371b65a
+  linkedin: ara-hayrabedian-b371b65a
   rss: anything# just type anything here for a working RSS icon
   twitter: ahayrabedian
 
