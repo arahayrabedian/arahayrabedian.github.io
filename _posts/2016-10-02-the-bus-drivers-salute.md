@@ -13,8 +13,8 @@ when the drivers would randomly raise their hands at almost regular intervals.
 
 ![The Salute](https://c1.staticflickr.com/9/8199/29884098155_71ebc683bd_b.jpg)
 
-After moving to Southampton in the UK, I noticed many of the drivers were
-very cordial with each other, opening doors and windows to chat at red lights,
+After moving to Southampton in the UK I noticed many of the drivers were
+very cordial with each other, opening doors and windows to chat at red lights or
 flashing their hi-beams at each other if passing at night or simply waving while 
 crossing paths.
 
