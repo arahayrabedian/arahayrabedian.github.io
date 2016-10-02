@@ -8,7 +8,7 @@ in many different countries give each other when passing in opposite directions 
 their routes.
 
 I first noticed it in [South Korea](https://www.flickr.com/photos/28588093@N00/albums/72157673084530072)
-when the driver would randomly raise his hand at almost regular intervals.
+when the drivers would randomly raise their hands at almost regular intervals.
  I later noticed this was whenever another bus was passing.
 
 ![The Salute](https://c1.staticflickr.com/9/8199/29884098155_71ebc683bd_b.jpg)
