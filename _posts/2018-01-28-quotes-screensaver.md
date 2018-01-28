@@ -63,7 +63,7 @@ convert "$image" -blur 15x8 \
 
 And with that, I can finally give you a sample of what locking my current screen would look like!
 
-![lock_screenshot](http://arahayrabedian.github.io/images/2018-01-28/lock_screenshot.png)
+![lock_screenshot](https://arahayrabedian.github.io/images/2018-01-28/lock_screenshot.png)
 
 # Tips and Tricks
 
