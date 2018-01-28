@@ -73,4 +73,4 @@ I'm also not sure how this quotes lock screen works with multiple displays, I on
 
 # Fin
 
-I don't really have much more to say, I guess good luck putting it all together, it was actually fun and fulfilling building something I wanted for myself!
+I don't really have much more to say, I guess good luck putting it all together, it was actually fun and fulfilling building something I wanted for myself! (With a LOT of help from internet strangers on github, there is an insane amount of prior art on the web!)
